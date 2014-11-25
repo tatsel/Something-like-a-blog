@@ -8,61 +8,68 @@
 	<link rel="stylesheet" href="css/mystyle.css">
   </head>
   <body>
-	<header class="navbar navbar-fixed-top">
-		<div class="container">
-			<div class="my-header">
-				<h1>Something like a blog</h1>
-				<p>Just trying</p>
-			</div>
-			<nav class="collapse navbar-collapse" role="navigation">
-				<ul class="nav navbar-nav">
-				<li>
-					<a href="#">Home</a>
-				</li>
-				<li>
-					<a href="#">Smthng about</a>
-					<ul>
-						<li>
-							<a href="#">About me</a>
-						</li>
-						<li>
-							<a href="#">About blog</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a href="#">Smthng else</a>
-				</li>
-				<li>
-					<a href="#">Moar</a>
-					<ul>
-						<li>
-							<a href="#">Interesting links</a>
-						</li>
-						<li>
-							<a href="#">Not so interesting links</a>
-						</li>
-					</ul>
-				</li>				
-				</ul>
-			</nav>
-		</div>
-	</header>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-8">
-			
-		
-	
-			</div>
-		</div>	
+  <div class="navbar navbar-default navbar-fixed-top">
+	  <div class="collapse navbar-collapse" role="navigation">
+		  <ul class="nav navbar-nav">
+			  <li>
+				  <a href="#">Home</a>
+			  </li>
+			  <li class="dropdown">
+				  <a class="dropdown-toggle" aria-expanded="false" role="button" data-toggle="dropdown" href="#">
+					  Smthng about
+					  <span class="caret"></span>
+				  </a>
+				  <ul class="dropdown-menu" role="menu">
+					  <li>
+						  <a href="#">About me</a>
+					  </li>
+					  <li>
+						  <a href="#">About blog</a>
+					  </li>
+				  </ul>
+			  </li>
+			  <li>
+				  <a href="#">Smthng else</a>
+			  </li>
+			  <li class="dropdown">
+				  <a class="dropdown-toggle" aria-expanded="false" role="button" data-toggle="dropdown" href="#">
+					  Moar
+					  <span class="caret"></span>
+				  </a>
+				  <ul class="dropdown-menu" role="menu">
+					  <li>
+						  <a href="#">Interesting links</a>
+					  </li>
+					  <li>
+						  <a href="#">Not so interesting links</a>
+					  </li>
+				  </ul>
+			  </li>
+		  </ul>
+	  </div>
+
+  </div>
+  <div class="container">
+
+	<div class="my-header">
+		<h1>Something like a blog</h1>
+		<p>Just trying</p>
 	</div>
-	<footer class="navbar-fixed-bottom">
-		<div class="container">
-			<p>
-				built by tatsel @ epam training
-			</p>
-		</div>
-	</footer>
+
+	  <br>
+	  <div class="row">
+		  <div class="col-md-8">.col-md-8</div>
+		  <div class="col-md-4">.col-md-4</div>
+	  </div>
+	  <footer class="my-footer">
+
+		  <p class="text-muted">Created by tatsel @ EPAMLab</p>
+
+	  </footer>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
   </body>
 </html>
