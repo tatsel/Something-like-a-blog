@@ -206,7 +206,7 @@ data = {
     ]
 };
 
-template = '<div class="liPaginate4">{{#articles}}<h3>{{header}}</h3><p>added by: <strong>{{author}}</strong> on <strong>{{stringDate}}</strong></p><p>{{text}}</p><hr>{{/articles}}</div>';
+template = '{{#articles}}<h3>{{header}}</h3><p>added by: <strong>{{author}}</strong> on <strong>{{stringDate}}</strong></p><p>{{text}}</p><hr>{{/articles}}';
 
 function loadTemplate() {
     document.getElementById('content-container').innerHTML = Mustache.render(template, data);
