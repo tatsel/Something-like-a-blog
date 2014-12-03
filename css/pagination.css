@@ -1,0 +1,70 @@
+/*Layout CSS*/
+body {
+    color: #999;
+    font: 13px/1.2em Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0 10px;
+}
+.liPaginate,
+.liPaginate2,
+.liPaginate3,
+.liPaginate4{
+    width:550px;
+    margin: 0 auto 20px;
+}
+hr {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    height: 0;
+    margin: 20px 0;
+}
+
+/*Plugin CSS*/
+.pageLinkWrap {
+    padding: 10px 0;
+    text-align: center;
+}
+.pageLink,.pageNext,.pagePrev,.pageAnd {
+    background: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 1px;
+    padding: 5px 10px;
+    text-shadow: 0 1px 0 #fff;
+    vertical-align: top;
+}
+.pageLinkActive,.pageLink.pageLinkActive:hover {
+    background: #3d7dab;
+    box-shadow: 0 5px 6px rgba(19,66,100,0.4);
+    color: #fff;
+    text-shadow: 0 -1px 0 #134264;
+}
+.pageLink:hover,.pageNext:hover,.pagePrev:hover {
+    background: #fff;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.3);
+}
+.pageItem {
+    display: none;
+}
+.pageActive {
+    display: block;
+}
+.disable {
+    background: #f1f1f1 !important;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2) !important;
+    cursor: default;
+    opacity: 0.3;
+}
+.pageNext,.pagePrev {
+    margin: 0 10px;
+}
+.test_to_page {
+	text-align:center;
+	padding:20px 0;
+}
+.test_to_page a {
+	padding:0 20px; 
+	display:inline-block;
+}
