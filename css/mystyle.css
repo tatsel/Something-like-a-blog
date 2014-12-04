@@ -4,6 +4,8 @@ html {
 }
 
 body {
+	color: #999;
+	font: 13px/1.2em Arial, Helvetica, sans-serif;
     margin-bottom: 60px;
 }
 
@@ -41,7 +43,7 @@ body > .container {
     text-transform: uppercase;
 }
 
-/*.my-container {
-    text-align: center;
-}*/
+.like-a-h {
+	font-size: 20px;	
+}
 

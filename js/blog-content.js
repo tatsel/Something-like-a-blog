@@ -1,9 +1,7 @@
-data = {
-    articles: [
-        {
+var data = [
+		{
             author: 'admin',
-            date: new Date(2014, 12, 02),
-            stringDate: formatDate(new Date(2014, 12, 02)),
+            date: '12/01/2014',
             header: 'Thieves may regret stealing HP Elitebook Folio 1020 laptops AGAIN!',
             text: 'Thieves might regret stealing Hewlett-Packard\'s ultrathin Elitebook Folio 1020 laptops, which have a feature that turns them into nothing more than paperweights in case of theft.A special feature in the Elitebook Folio 1020 is an \"always on\" capability' +
             'so the laptop can be tracked even when it\'s shut off, as with smartphones and tablets. If a laptop is lost or stolen, it can be tracked down to a specific location and data can be remotely wiped by a system administrator.' +
@@ -20,8 +18,7 @@ data = {
 
         {
             author: 'admin',
-            date: new Date(2014, 12, 01),
-            stringDate: formatDate(new Date(2014, 12, 01)),
+            date: '12/01/2014',
             header: 'SECOND TIME To grow in IoT, Cypress and Spansion plan $4 billion chip merger',
             text: 'The contraction of the semiconductor industry continued with embedded chip and flash memory makers Cypress Semiconductor and Spansion announcing a merger plan worth $4 billion.'+
             	'Both companies make flash memory and low-power circuits used in industrial equipment, medical instruments, smart devices and cars. For example, Spansion\'s microcontroller units are used in automotive braking systems.'+
@@ -37,9 +34,8 @@ data = {
         
         {
             author: 'admin',
-            date: new Date(2014, 12, 01),
-            stringDate: formatDate(new Date(2014, 12, 01)),
-            header: 'SUDDENLY China\'s booming smartphone growth starts to fizzle',
+            date: '12/01/2014',
+            header: 'SUDDENLY China booming smartphone growth starts to fizzle',
             text: 'China\'s appetite for smartphones is starting to reach its limit, with growth in the once booming market expected to reach single digit levels next year.'+
             'The country ranks as the world biggest market for the devices, brought on by its giant population and scores of local vendors peddling cheap Android handsets. Demand in the market was so high that in 2013 smartphone shipments to the country were up 64 percent year over year, according to research firm IDC.'+
             'But the growth has cooled down in 2014, with IDC\'s projection putting the year-over-year growth at 20 percent. And future growth will slow even further."Over the next few years, we expect it to be in single digits," said IDC analyst Kiranjeet Kaur on Tuesday.'+
@@ -52,8 +48,7 @@ data = {
         
         {
             author: 'admin',
-            date: new Date(2014, 11, 30),
-            stringDate: formatDate(new Date(2014, 11, 30)),
+            date: '11/30/2014',
             header: 'Smartphone growth to slow, IDC says AGAIN!',
             text: 'Smartphone growth will continue at nearly 10% annually through 2018, but that\'s well behind increases in recent years.'+
             'IDC said Monday that global smartphone shipments in 2014 will reach nearly 1.3 billion units, an increase of 26% over 2013. But for 2015, IDC predicted, 1.4 billion smartphones will ship to retailers, only a 12% increase over 2014.'+
@@ -67,8 +62,7 @@ data = {
         
         {
             author: 'admin',
-            date: new Date(2014, 11, 30),
-            stringDate: formatDate(new Date(2014, 11, 30)),
+            date: '11/30/2014',
             header: 'AFTER ALL Microsoft moving value phones to United States',
             text: 'The RM-1062 also self-reports as the RM-1063, RM-1064, and RM-1065, AdDuplex noted. That essentially means it\'ll have derivatives for various markets: AdDuplex reports it\'s seen the phone in Finland, some Asian countries, and on AT&T\'s network within the United States.'+
             'Specifically, AdDuplex found that the RM-1062 will have a 720p screen spread across a 5.7-inch display, a tad smaller than the six-inch screen used by the Lumia 1520 and 1320. While the Lumia 1520 was sold in the United States, the 1320 was shipped to markets like Vietnam as a lower-cost option. It now appears that Microsoft will be widening its net.'+
@@ -78,8 +72,7 @@ data = {
         
         {
             author: 'admin',
-            date: new Date(2014, 11, 28),
-            stringDate: formatDate(new Date(2014, 11, 28)),
+            date: '11/20/2014',
             header: 'Personalize the Windows Explorer Navigation Bar PLEASE',
             text: 'Windows Explorer (AKA File Explorer) offers a Navigation Bar on the left to help you select folders. Mary Hall asked how to customize it.'+
             	'The Explorer Navigation Bar provides a map to the drives and folders on or accessible to your computer. Two of the sections, Favorites and Libraries, are easily configurable. The other sections are not configurable for a good reason. If you want to add a drive to the Navigation Bar, you need to add that drive from your PC (which adds it to the Navigation Bar automatically).'+
@@ -92,8 +85,7 @@ data = {
         
         {
             author: 'admin',
-            date: new Date(2014, 11, 01),
-            stringDate: formatDate(new Date(2014, 11, 01)),
+            date: '11/02/2014',
             header: 'SUDDENLY Microsoft buys Acompli to enhance Outlook for iOS, Android',
             text: 'Founded in 2013, Acompli offers an iPhone and Android mobile e-mail client that streamlines many of the basic tasks around managing e-mail so they can be completed on the device itself, rather than by using a desktop client. Users have reported that the software works particularly well with Microsoft\'s Exchange e-mail servers. Microsoft offers a basic version of Outlook for iPhones, though thus far it has seemingly garnered only a lukewarm response from users.'+
             'The free Acompli app offers advanced features such as the ability to view both calendar items and email side by side on the same screen. The calendar lets users email available times for proposed meetings and send a message when they are running late.'+
@@ -104,8 +96,7 @@ data = {
         
         {
             author: 'admin',
-            date: new Date(2014, 10, 29),
-            stringDate: formatDate(new Date(2014, 10, 29)),
+            date: '10/29/2014',
             header: 'Thieves may regret stealing HP Elitebook Folio 1020 laptops',
             text: 'Thieves might regret stealing Hewlett-Packard\'s ultrathin Elitebook Folio 1020 laptops, which have a feature that turns them into nothing more than paperweights in case of theft.A special feature in the Elitebook Folio 1020 is an \"always on\" capability' +
             'so the laptop can be tracked even when it\'s shut off, as with smartphones and tablets. If a laptop is lost or stolen, it can be tracked down to a specific location and data can be remotely wiped by a system administrator.' +
@@ -122,8 +113,7 @@ data = {
 
         {
             author: 'admin',
-            date: new Date(2014, 10, 29),
-            stringDate: formatDate(new Date(2014, 10, 29)),
+            date: '10/15/2014',
             header: 'To grow in IoT, Cypress and Spansion plan $4 billion chip merger',
             text: 'The contraction of the semiconductor industry continued with embedded chip and flash memory makers Cypress Semiconductor and Spansion announcing a merger plan worth $4 billion.'+
             	'Both companies make flash memory and low-power circuits used in industrial equipment, medical instruments, smart devices and cars. For example, Spansion\'s microcontroller units are used in automotive braking systems.'+
@@ -139,8 +129,7 @@ data = {
         
         {
             author: 'admin',
-            date: new Date(2014, 10, 29),
-            stringDate: formatDate(new Date(2014, 10, 29)),
+            date: '10/10/2014',
             header: 'China\'s booming smartphone growth starts to fizzle',
             text: 'China\'s appetite for smartphones is starting to reach its limit, with growth in the once booming market expected to reach single digit levels next year.'+
             'The country ranks as the world biggest market for the devices, brought on by its giant population and scores of local vendors peddling cheap Android handsets. Demand in the market was so high that in 2013 smartphone shipments to the country were up 64 percent year over year, according to research firm IDC.'+
@@ -154,8 +143,7 @@ data = {
         
         {
             author: 'admin',
-            date: new Date(2014, 10, 15),
-            stringDate: formatDate(new Date(2014, 10, 15)),
+            date: '10/10/2014',
             header: 'Smartphone growth to slow, IDC says',
             text: 'Smartphone growth will continue at nearly 10% annually through 2018, but that\'s well behind increases in recent years.'+
             'IDC said Monday that global smartphone shipments in 2014 will reach nearly 1.3 billion units, an increase of 26% over 2013. But for 2015, IDC predicted, 1.4 billion smartphones will ship to retailers, only a 12% increase over 2014.'+
@@ -169,8 +157,7 @@ data = {
         
         {
             author: 'admin',
-            date: new Date(2014, 10, 13),
-            stringDate: formatDate(new Date(2014, 10, 13)),
+            date: '10/09/2014',
             header: 'Microsoft moving value phones to United States',
             text: 'The RM-1062 also self-reports as the RM-1063, RM-1064, and RM-1065, AdDuplex noted. That essentially means it\'ll have derivatives for various markets: AdDuplex reports it\'s seen the phone in Finland, some Asian countries, and on AT&T\'s network within the United States.'+
             'Specifically, AdDuplex found that the RM-1062 will have a 720p screen spread across a 5.7-inch display, a tad smaller than the six-inch screen used by the Lumia 1520 and 1320. While the Lumia 1520 was sold in the United States, the 1320 was shipped to markets like Vietnam as a lower-cost option. It now appears that Microsoft will be widening its net.'+
@@ -180,8 +167,7 @@ data = {
         
         {
             author: 'admin',
-            date: new Date(2014, 10, 13),
-            stringDate: formatDate(new Date(2014, 10, 13)),
+            date: '10/09/2014',
             header: 'Personalize the Windows Explorer Navigation Bar',
             text: 'Windows Explorer (AKA File Explorer) offers a Navigation Bar on the left to help you select folders. Mary Hall asked how to customize it.'+
             	'The Explorer Navigation Bar provides a map to the drives and folders on or accessible to your computer. Two of the sections, Favorites and Libraries, are easily configurable. The other sections are not configurable for a good reason. If you want to add a drive to the Navigation Bar, you need to add that drive from your PC (which adds it to the Navigation Bar automatically).'+
@@ -194,34 +180,84 @@ data = {
         
         {
             author: 'admin',
-            date: new Date(2014, 10, 13),
-            stringDate: formatDate(new Date(2014, 10, 13)),
+            date: '10/08/2014',
             header: 'Microsoft buys Acompli to enhance Outlook for iOS, Android',
             text: 'Founded in 2013, Acompli offers an iPhone and Android mobile e-mail client that streamlines many of the basic tasks around managing e-mail so they can be completed on the device itself, rather than by using a desktop client. Users have reported that the software works particularly well with Microsoft\'s Exchange e-mail servers. Microsoft offers a basic version of Outlook for iPhones, though thus far it has seemingly garnered only a lukewarm response from users.'+
             'The free Acompli app offers advanced features such as the ability to view both calendar items and email side by side on the same screen. The calendar lets users email available times for proposed meetings and send a message when they are running late.'+
             'Microsoft plans to pair the Acompli development team with the team for its own Outlook e-mail client.'+
             'Terms of the deal were not disclosed, though IT trade website Re/Code has reported that the acquisition was worth more than US$200 million.'+
             'After years of being mostly dormant in terms of new feature development, e-mail seems to be becoming a competitive battlefield for major enterprise software services providers, which are quickly appending new features to the decades-old technology. Last month, IBM previewed its next-generation e-mail client, called Verse, which also offered new management tools. Google is also undertaking a radical redesign of its e-mail service in an effort called Inbox.'            	                                  	
-        },
-    ]
-};
+        }
 
-template = '{{#articles}}<h3>{{header}}</h3><p>added by: <strong>{{author}}</strong> on <strong>{{stringDate}}</strong></p><p>{{text}}</p><hr>{{/articles}}';
+];
+
+template = '<div class="liPaginate">{{#.}}<p><a href="#" onclick="loadSingle(\'{{header}}\')"><span class="like-a-h">{{header}}</span></a><br><br>added by: <strong>{{author}}</strong> on <strong>{{date}}</strong><br><br>{{text}}<hr></p>{{/.}}</div>';
+templateSingle = '{{#.}}<p><a href="#" onclick="loadSingle(\'{{header}}\')"><h6>{{header}}</h6></a><p>added on {{date}}</p><hr>{{/.}}';
+
+$(document).ready(
+function() {
+$('.input-daterange').datepicker({
+  weekStart: 1,
+  todayBtn: "linked"
+});
+}
+);
+
+$(document).ready(
+function() {
+    document.getElementById('content-container').innerHTML = Mustache.render(template, data);
+}
+);
 
 function loadTemplate() {
     document.getElementById('content-container').innerHTML = Mustache.render(template, data);
 }
 
-function formatDate(date) {
+function loadSingle(header) {	
+	for(var i=0; i<data.length; i++){
+	  var obj = data[i];
+	  if (obj.header === header) {
+	  	document.getElementById('content-container').innerHTML = Mustache.render(template, data[i]);
+	  };
+	};	
+}
 
-    var dd = date.getDate();
-    if ( dd < 10 ) dd = '0' + dd;
 
-    var mm = date.getMonth()+1;
-    if ( mm < 10 ) mm = '0' + mm;
+function pagin() {
+  $('.liPaginate').liPaginate({
+    easing:'easeOutQuart',
+    duration: 1000,       
+    effect:'fade',       
+    pagePos:'double',    
+    pageHeight:1400,     
+    maxPage:3            
+  });
+}
 
-    var yy = date.getFullYear() % 100;
-    if ( yy < 10 ) yy = '0' + yy;
 
-    return dd+'.'+mm+'.'+yy;
+$(window).load(function(){
+  $('.liPaginate').liPaginate({
+    easing:'easeOutQuart',
+    duration: 1000,      
+    effect:'fade',       
+    pagePos:'double',     
+    pageHeight:1400,      
+    maxPage:3             
+  });
+});
+
+
+
+$(document).ready(
+function () {
+	for(var i=0; i<data.length || i<5; i++){
+	  var obj = data[i];	  
+	  document.getElementById('last-headers-container'+i).innerHTML = Mustache.render(templateSingle, data[i]);
+	};
+}
+);
+
+function doBeauty() {
+	loadTemplate();
+	pagin();
 }

@@ -7,16 +7,15 @@
  * 
  * 28.05.2013
  */
-$(function(){
 (function($){
 	$.fn.liPaginate = function(params){
 		var p = $.extend({
 			easing:'easeOutQuart',	//http://gsgd.co.uk/sandbox/jquery/easing/
 			duration: 1000,			//строка или число, определяющие, как долго будет длиться анимация  
-			effect:'simple',		//simple, fade, hSlide, vSlide - эффект анимации
-			pagePos:'after',		//after, before, double - положение навигации
-			pageHeight:'3000',		//[px] - высота текстового блока, ['auto'] - определяется автоматически относительно высоты экрана
-			maxPage:3				//любое нечетное число - максимальное видимое число страниц в навигации
+			effect:'vSlide',		//simple, fade, hSlide, vSlide - эффект анимации
+			pagePos:'double',		//after, before, double - положение навигации
+			pageHeight:'auto',		//[px] - высота текстового блока, ['auto'] - определяется автоматически относительно высоты экрана
+			maxPage:11				//любое нечетное число - максимальное видимое число страниц в навигации
 		}, params);
 		
 		return this.each(function(){
