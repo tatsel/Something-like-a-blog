@@ -2,7 +2,7 @@ var data = [
 		{
             author: 'admin',
             date: '12/01/2014',
-            header: 'Thieves may regret stealing HP Elitebook Folio 1020 laptops AGAIN!',
+            header: 'Thieves may regret stealing HP Elitebook Folio 1020 laptops AGAIN',
             text: 'Thieves might regret stealing Hewlett-Packard\'s ultrathin Elitebook Folio 1020 laptops, which have a feature that turns them into nothing more than paperweights in case of theft.A special feature in the Elitebook Folio 1020 is an \"always on\" capability' +
             'so the laptop can be tracked even when it\'s shut off, as with smartphones and tablets. If a laptop is lost or stolen, it can be tracked down to a specific location and data can be remotely wiped by a system administrator.' +
             'HP is tailoring the always-on tracking feature for the company\'s Web-based Touchpoint Manager mobile-device management service. The laptops have an extremely low-power ARM-based chip that remains on to enable the tracking' +
@@ -21,15 +21,15 @@ var data = [
             date: '12/01/2014',
             header: 'SECOND TIME To grow in IoT, Cypress and Spansion plan $4 billion chip merger',
             text: 'The contraction of the semiconductor industry continued with embedded chip and flash memory makers Cypress Semiconductor and Spansion announcing a merger plan worth $4 billion.'+
-            	'Both companies make flash memory and low-power circuits used in industrial equipment, medical instruments, smart devices and cars. For example, Spansion\'s microcontroller units are used in automotive braking systems.'+
-            	'The merger makes sense with fast growth in the Internet of Things market, where industrial equipment with connectivity features could put the companies\' products in high demand, said Jim McGregor, principal analyst at Tirias Research.'+
-            	'The combined company could go after markets like industrial automation, smart cities and smart devices, McGregor said.'+            	
-            	'\"Those are markets where you can carve out a niche without taking on the Qualcomms and Intels," McGregor said. "I still see them as being a niche entity, but they are looking at intellectual property that will make them valuable."'+
-            	'The combined company will have in-house wireless capabilities, which are key for data transfer between IoT devices. Both the companies also specialize in NOR and SRAM memory, which are used in industrial IoT equipment.'+
-            	'\"Having the memory capability in-house is going to be a potential benefit," McGregor said. "We have only a handful of memory manufacturers left."'+
-            	'Spansion, which was a spin-off of Advanced Micro Devices, last year bought Fujitsu\'s microcontroller business and is doing interesting work in energy harvesting.'+
-            	'The combined company will compete with Freescale, Atmel, STMicroelectronics and Texas Instruments. Freescale has in-house memory assets, while TI has a strong portfolio in analog and digital circuitry.'+
-            	'Both companies are based in Silicon Valley. They say the merger could create a company with $2 billion in annual revenue. The deal will close in the first half of next year, the companies said in a joint statement.'            	
+            'Both companies make flash memory and low-power circuits used in industrial equipment, medical instruments, smart devices and cars. For example, Spansion\'s microcontroller units are used in automotive braking systems.'+
+            'The merger makes sense with fast growth in the Internet of Things market, where industrial equipment with connectivity features could put the companies\' products in high demand, said Jim McGregor, principal analyst at Tirias Research.'+
+            'The combined company could go after markets like industrial automation, smart cities and smart devices, McGregor said.'+            	
+            '\"Those are markets where you can carve out a niche without taking on the Qualcomms and Intels," McGregor said. "I still see them as being a niche entity, but they are looking at intellectual property that will make them valuable."'+
+            'The combined company will have in-house wireless capabilities, which are key for data transfer between IoT devices. Both the companies also specialize in NOR and SRAM memory, which are used in industrial IoT equipment.'+
+            '\"Having the memory capability in-house is going to be a potential benefit," McGregor said. "We have only a handful of memory manufacturers left."'+
+            'Spansion, which was a spin-off of Advanced Micro Devices, last year bought Fujitsu\'s microcontroller business and is doing interesting work in energy harvesting.'+
+            'The combined company will compete with Freescale, Atmel, STMicroelectronics and Texas Instruments. Freescale has in-house memory assets, while TI has a strong portfolio in analog and digital circuitry.'+
+            'Both companies are based in Silicon Valley. They say the merger could create a company with $2 billion in annual revenue. The deal will close in the first half of next year, the companies said in a joint statement.'            	
         },
         
         {
@@ -75,12 +75,12 @@ var data = [
             date: '11/20/2014',
             header: 'Personalize the Windows Explorer Navigation Bar PLEASE',
             text: 'Windows Explorer (AKA File Explorer) offers a Navigation Bar on the left to help you select folders. Mary Hall asked how to customize it.'+
-            	'The Explorer Navigation Bar provides a map to the drives and folders on or accessible to your computer. Two of the sections, Favorites and Libraries, are easily configurable. The other sections are not configurable for a good reason. If you want to add a drive to the Navigation Bar, you need to add that drive from your PC (which adds it to the Navigation Bar automatically).'+
-            	'A quick note on the name: Microsoft has called its file manager Windows Explorer since Windows 95. With Windows 8, they renamed it File Explorer--a good change in my opinion. For this article, I\'ll just call it Explorer.'+
-            	'The very name Favorites suggests that the top section of the Navigation Bar should be configurable. After all, you want your favorites, not Microsoft\'s. Here\'s how to change that:'+
-            	'To remove a folder from Favorites, right-click it in the Navigation Bar and select Remove. This doesn\'t delete the folder; it just removes it from Favorites.'+
-            	'To add a folder to Favorites, drag the folder to the Favorites section.'+
-            	'To change the order of your Favorites, drag and drop.'            	                                  	
+            'The Explorer Navigation Bar provides a map to the drives and folders on or accessible to your computer. Two of the sections, Favorites and Libraries, are easily configurable. The other sections are not configurable for a good reason. If you want to add a drive to the Navigation Bar, you need to add that drive from your PC (which adds it to the Navigation Bar automatically).'+
+            'A quick note on the name: Microsoft has called its file manager Windows Explorer since Windows 95. With Windows 8, they renamed it File Explorer--a good change in my opinion. For this article, I\'ll just call it Explorer.'+
+            'The very name Favorites suggests that the top section of the Navigation Bar should be configurable. After all, you want your favorites, not Microsoft\'s. Here\'s how to change that:'+
+            'To remove a folder from Favorites, right-click it in the Navigation Bar and select Remove. This doesn\'t delete the folder; it just removes it from Favorites.'+
+            'To add a folder to Favorites, drag the folder to the Favorites section.'+
+            'To change the order of your Favorites, drag and drop.'            	                                  	
         },
         
         {
@@ -116,15 +116,15 @@ var data = [
             date: '10/15/2014',
             header: 'To grow in IoT, Cypress and Spansion plan $4 billion chip merger',
             text: 'The contraction of the semiconductor industry continued with embedded chip and flash memory makers Cypress Semiconductor and Spansion announcing a merger plan worth $4 billion.'+
-            	'Both companies make flash memory and low-power circuits used in industrial equipment, medical instruments, smart devices and cars. For example, Spansion\'s microcontroller units are used in automotive braking systems.'+
-            	'The merger makes sense with fast growth in the Internet of Things market, where industrial equipment with connectivity features could put the companies\' products in high demand, said Jim McGregor, principal analyst at Tirias Research.'+
-            	'The combined company could go after markets like industrial automation, smart cities and smart devices, McGregor said.'+            	
-            	'\"Those are markets where you can carve out a niche without taking on the Qualcomms and Intels," McGregor said. "I still see them as being a niche entity, but they are looking at intellectual property that will make them valuable."'+
-            	'The combined company will have in-house wireless capabilities, which are key for data transfer between IoT devices. Both the companies also specialize in NOR and SRAM memory, which are used in industrial IoT equipment.'+
-            	'\"Having the memory capability in-house is going to be a potential benefit," McGregor said. "We have only a handful of memory manufacturers left."'+
-            	'Spansion, which was a spin-off of Advanced Micro Devices, last year bought Fujitsu\'s microcontroller business and is doing interesting work in energy harvesting.'+
-            	'The combined company will compete with Freescale, Atmel, STMicroelectronics and Texas Instruments. Freescale has in-house memory assets, while TI has a strong portfolio in analog and digital circuitry.'+
-            	'Both companies are based in Silicon Valley. They say the merger could create a company with $2 billion in annual revenue. The deal will close in the first half of next year, the companies said in a joint statement.'            	
+            'Both companies make flash memory and low-power circuits used in industrial equipment, medical instruments, smart devices and cars. For example, Spansion\'s microcontroller units are used in automotive braking systems.'+
+            'The merger makes sense with fast growth in the Internet of Things market, where industrial equipment with connectivity features could put the companies\' products in high demand, said Jim McGregor, principal analyst at Tirias Research.'+
+            'The combined company could go after markets like industrial automation, smart cities and smart devices, McGregor said.'+            	
+            '\"Those are markets where you can carve out a niche without taking on the Qualcomms and Intels," McGregor said. "I still see them as being a niche entity, but they are looking at intellectual property that will make them valuable."'+
+            'The combined company will have in-house wireless capabilities, which are key for data transfer between IoT devices. Both the companies also specialize in NOR and SRAM memory, which are used in industrial IoT equipment.'+
+            '\"Having the memory capability in-house is going to be a potential benefit," McGregor said. "We have only a handful of memory manufacturers left."'+
+            'Spansion, which was a spin-off of Advanced Micro Devices, last year bought Fujitsu\'s microcontroller business and is doing interesting work in energy harvesting.'+
+            'The combined company will compete with Freescale, Atmel, STMicroelectronics and Texas Instruments. Freescale has in-house memory assets, while TI has a strong portfolio in analog and digital circuitry.'+
+            'Both companies are based in Silicon Valley. They say the merger could create a company with $2 billion in annual revenue. The deal will close in the first half of next year, the companies said in a joint statement.'            	
         },
         
         {
@@ -170,12 +170,12 @@ var data = [
             date: '10/09/2014',
             header: 'Personalize the Windows Explorer Navigation Bar',
             text: 'Windows Explorer (AKA File Explorer) offers a Navigation Bar on the left to help you select folders. Mary Hall asked how to customize it.'+
-            	'The Explorer Navigation Bar provides a map to the drives and folders on or accessible to your computer. Two of the sections, Favorites and Libraries, are easily configurable. The other sections are not configurable for a good reason. If you want to add a drive to the Navigation Bar, you need to add that drive from your PC (which adds it to the Navigation Bar automatically).'+
-            	'A quick note on the name: Microsoft has called its file manager Windows Explorer since Windows 95. With Windows 8, they renamed it File Explorer--a good change in my opinion. For this article, I\'ll just call it Explorer.'+
-            	'The very name Favorites suggests that the top section of the Navigation Bar should be configurable. After all, you want your favorites, not Microsoft\'s. Here\'s how to change that:'+
-            	'To remove a folder from Favorites, right-click it in the Navigation Bar and select Remove. This doesn\'t delete the folder; it just removes it from Favorites.'+
-            	'To add a folder to Favorites, drag the folder to the Favorites section.'+
-            	'To change the order of your Favorites, drag and drop.'            	                                  	
+            'The Explorer Navigation Bar provides a map to the drives and folders on or accessible to your computer. Two of the sections, Favorites and Libraries, are easily configurable. The other sections are not configurable for a good reason. If you want to add a drive to the Navigation Bar, you need to add that drive from your PC (which adds it to the Navigation Bar automatically).'+
+            'A quick note on the name: Microsoft has called its file manager Windows Explorer since Windows 95. With Windows 8, they renamed it File Explorer--a good change in my opinion. For this article, I\'ll just call it Explorer.'+
+            'The very name Favorites suggests that the top section of the Navigation Bar should be configurable. After all, you want your favorites, not Microsoft\'s. Here\'s how to change that:'+
+            'To remove a folder from Favorites, right-click it in the Navigation Bar and select Remove. This doesn\'t delete the folder; it just removes it from Favorites.'+
+            'To add a folder to Favorites, drag the folder to the Favorites section.'+
+            'To change the order of your Favorites, drag and drop.'            	                                  	
         },
         
         {
@@ -191,37 +191,48 @@ var data = [
 
 ];
 
-template = '<div class="liPaginate">{{#.}}<p><a href="#" onclick="loadSingle(\'{{header}}\')"><span class="like-a-h">{{header}}</span></a><br><br>added by: <strong>{{author}}</strong> on <strong>{{date}}</strong><br><br>{{text}}<hr></p>{{/.}}</div>';
-templateSingle = '{{#.}}<p><a href="#" onclick="loadSingle(\'{{header}}\')"><h6>{{header}}</h6></a><p>added on {{date}}</p><hr>{{/.}}';
+var sorry = {
+	sorry: 'SORRY',
+	text: 'nothing to show =\('
+};
 
-$(document).ready(
-function() {
-$('.input-daterange').datepicker({
-  weekStart: 1,
-  todayBtn: "linked"
-});
-}
-);
+template = '{{#.}}<p><a href="#" data-toggle="modal" data-target="#myModal" onclick="loadSingle(\'{{header}}\')"><span class="like-a-h">{{header}}</span></a><br><br>added by: <strong>{{author}}</strong> on <strong>{{date}}</strong><br><br>{{text}}<hr></p>{{/.}}';
+withoutPaginTemplate = '{{#.}}<p><span class="like-a-h">{{header}}</span><br><br>added by: <strong>{{author}}</strong> on <strong>{{date}}</strong><br><br>{{text}}<hr></p>{{/.}}';
+templateSingle = '{{#.}}<p><a href="#" data-toggle="modal" data-target="#myModal" onclick="loadSingle(\'{{header}}\')"><h6>{{header}}</h6></a><p>added on {{date}}</p><hr>{{/.}}';
+sorryTemplate = '{{#.}}<center><h3>{{sorry}}</h3><br><br><p>{{text}}</p>{{/.}}';
 
-$(document).ready(
-function() {
-    document.getElementById('content-container').innerHTML = Mustache.render(template, data);
-}
-);
 
 function loadTemplate() {
     document.getElementById('content-container').innerHTML = Mustache.render(template, data);
 }
 
+function showArticles () {
+	var startDate = new Date($('#start').val());
+	var endDate = new Date($('#end').val());
+	var showData = [];
+	for(var i=0; i<data.length; i++){
+	  var obj = data[i];	  
+	  var objDate = new Date(obj.date);
+	  if (objDate >= startDate && objDate <= endDate) {
+	  	showData.push(obj);	  	
+	  };
+	};
+	if (showData.length>0) {
+		document.getElementById('modal-body1').innerHTML = Mustache.render(withoutPaginTemplate, showData);		
+	} else{
+		document.getElementById('modal-body1').innerHTML = Mustache.render(sorryTemplate, sorry);		
+	};		
+}
+
+
 function loadSingle(header) {	
 	for(var i=0; i<data.length; i++){
 	  var obj = data[i];
 	  if (obj.header === header) {
-	  	document.getElementById('content-container').innerHTML = Mustache.render(template, data[i]);
+	  	document.getElementById('modal-body').innerHTML = Mustache.render(template, data[i]);	  	
 	  };
 	};	
 }
-
 
 function pagin() {
   $('.liPaginate').liPaginate({
@@ -229,35 +240,25 @@ function pagin() {
     duration: 1000,       
     effect:'fade',       
     pagePos:'double',    
-    pageHeight:1400,     
+    pageHeight:1390,     
     maxPage:3            
   });
 }
 
-
-$(window).load(function(){
-  $('.liPaginate').liPaginate({
-    easing:'easeOutQuart',
-    duration: 1000,      
-    effect:'fade',       
-    pagePos:'double',     
-    pageHeight:1400,      
-    maxPage:3             
-  });
-});
-
-
-
-$(document).ready(
-function () {
-	for(var i=0; i<data.length || i<5; i++){
-	  var obj = data[i];	  
-	  document.getElementById('last-headers-container'+i).innerHTML = Mustache.render(templateSingle, data[i]);
-	};
-}
+$(document).ready(	
+	function () {
+		
+		loadTemplate();
+		pagin();
+		
+		$('.input-daterange').datepicker({
+		  weekStart: 1,
+		  todayBtn: "linked"
+		});
+		
+		for(var i=0; i<data.length || i<5; i++){
+		  var obj = data[i];	  
+		  document.getElementById('last-headers-container'+i).innerHTML = Mustache.render(templateSingle, data[i]);
+		};		
+	}
 );
-
-function doBeauty() {
-	loadTemplate();
-	pagin();
-}
