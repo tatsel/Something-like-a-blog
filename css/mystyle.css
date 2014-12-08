@@ -1,17 +1,21 @@
 html {
 	position: relative;
-    min-height: 100%;    
+    min-height: 100%;  
+    /*overflow-y: scroll;*/  
 }
 
-body {
+body {	
 	color: #999;
-	font: 13px/1.2em Arial, Helvetica, sans-serif;
+	font: 13px/1.2em Arial, Helvetica, sans-serif;	
     margin-bottom: 60px;
+    width: calc(100vw - 10px);
 }
 
+/*
 body > .container {
     padding: 60px 15px 0;
-}
+}*/
+
 
 .container .text-muted {
     margin: 20px 0;
@@ -25,8 +29,8 @@ body > .container {
 
 .my-header {    
     font-size: 16px;
-    padding-bottom: 15px;
-    margin: 20px 0 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;    
     text-align: center;
 	text-transform: uppercase;
 }

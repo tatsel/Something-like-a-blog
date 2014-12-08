@@ -1,3 +1,4 @@
+
 var data = [
 		{
             author: 'admin',
@@ -191,6 +192,7 @@ var data = [
 
 ];
 
+
 var sorry = {
 	sorry: 'SORRY',
 	text: 'nothing to show =\('
@@ -234,6 +236,7 @@ function loadSingle(header) {
 	};	
 }
 
+
 function pagin() {
   $('.liPaginate').liPaginate({
     easing:'easeOutQuart',
@@ -249,7 +252,7 @@ $(document).ready(
 	function () {
 		
 		loadTemplate();
-		pagin();
+		pagin();		
 		
 		$('.input-daterange').datepicker({
 		  weekStart: 1,
@@ -259,6 +262,10 @@ $(document).ready(
 		for(var i=0; i<data.length || i<5; i++){
 		  var obj = data[i];	  
 		  document.getElementById('last-headers-container'+i).innerHTML = Mustache.render(templateSingle, data[i]);
-		};		
+		};				
 	}
 );
+
+
+	  
+
