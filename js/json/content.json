@@ -1,5 +1,5 @@
 {
-"articles": [
+  "articles": [
 		{
             "author": "admin",
             "date": "12/05/2014",
@@ -84,8 +84,7 @@
             "text": "Founded in 2013, Acompli offers an iPhone and Android mobile e-mail client that streamlines many of the basic tasks around managing e-mail so they can be completed on the device itself, rather than by using a desktop client. Users have reported that the software works particularly well with Microsoft's Exchange e-mail servers. Microsoft offers a basic version of Outlook for iPhones, though thus far it has seemingly garnered only a lukewarm response from users. The free Acompli app offers advanced features such as the ability to view both calendar items and email side by side on the same screen. The calendar lets users email available times for proposed meetings and send a message when they are running late. Microsoft plans to pair the Acompli development team with the team for its own Outlook e-mail client. Terms of the deal were not disclosed, though IT trade website Re/Code has reported that the acquisition was worth more than US$200 million. After years of being mostly dormant in terms of new feature development, e-mail seems to be becoming a competitive battlefield for major enterprise software services providers, which are quickly appending new features to the decades-old technology. Last month, IBM previewed its next-generation e-mail client, called Verse, which also offered new management tools. Google is also undertaking a radical redesign of its e-mail service in an effort called Inbox."
         }
 	],
-	
-	"images": [
+  "imgs": [
 	
 		{
 			"href": "http://farm9.static.flickr.com/8608/15759328409_41648f60e1_b.jpg",
