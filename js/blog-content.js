@@ -5,8 +5,8 @@ templateSingle = '{{#.}}<p><a href="#" data-toggle="modal" data-target="#myModal
 sorryTemplate = '{{#.}}<h3>{{sorry}}</h3><br><br><p>{{text}}</p>{{/.}}';
 imgTemplate = '{{#.}}<a href="{{href}}" title="{{title}}" data-gallery><img src="{{src}}"></a>{{/.}}';
 
-function loadTemplate() {			 
-	$.getJSON('js/json/content.json').done(function(jsondata) {
+function loadTemplate() {
+	$.getJSON('js/json/content.json', function(jsondata) {
 		$('#links')[0].innerHTML = Mustache.render(imgTemplate, jsondata.imgs);
 		$('#content-container')[0].innerHTML = Mustache.render(template, jsondata.articles);
 		pagin();
@@ -17,7 +17,7 @@ function loadTemplate() {
 }
 
 function showArticles () {
-	$.getJSON('js/json/content.json').done(function(jsondata) {
+	$.getJSON('js/json/content.json', function(jsondata) {
 		var startDate = new Date($('#start').val());
 		var endDate = new Date($('#end').val());
 		var showData = [];
@@ -29,23 +29,23 @@ function showArticles () {
 	  		};
 		};
 		if (showData.length>0) {
-			$('#modal-body1')[0].innerHTML = Mustache.render(withoutPaginTemplate, showData);		
+			$('#modal-body1')[0].innerHTML = Mustache.render(withoutPaginTemplate, showData);
 		} else{
 			var sorry = {
 				sorry: 'SORRY',
 				text: 'nothing to show =\('
 			};
-			$('#modal-body1')[0].innerHTML = Mustache.render(sorryTemplate, sorry);		
+			$('#modal-body1')[0].innerHTML = Mustache.render(sorryTemplate, sorry);
 		};			   
 	});			
 }
 
 function loadSingle(header) {
-	$.getJSON('js/json/content.json').done(function(jsondata) {
+	$.getJSON('js/json/content.json', function(jsondata) {
 		for(var i=0; i<jsondata.articles.length; i++){
 	  		var obj = jsondata.articles[i];
 	  		if (obj.header === header) {
-	  			$('#modal-body')[0].innerHTML = Mustache.render(template, obj);	  	
+	  			$('#modal-body')[0].innerHTML = Mustache.render(template, obj);
 	  		};
 		};		   
 	});			
