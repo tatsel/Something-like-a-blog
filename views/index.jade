@@ -1,0 +1,186 @@
+doctype html
+html
+   head
+      meta(charset="utf-8")
+      title Something like a blog
+      link(rel="stylesheet", href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css")
+      link(rel="stylesheet", href="stylesheets/vendor/bootstrap.css")
+      link(rel="stylesheet", href="stylesheets/vendor/bootstrap-theme.css")
+      link(rel="stylesheet", href="stylesheets/vendor/bootstrap-responsive.css")
+      link(rel="stylesheet", href="stylesheets/vendor/bootstrap-image-gallery.min.css")
+      link(rel="stylesheet", href="stylesheets/vendor/datepicker.css")
+      link(rel="stylesheet", href="stylesheets/vendor/datepicker3.css")
+      link(rel="stylesheet", href="stylesheets/vendor/liPaginate.css")
+      link(rel="stylesheet", href="stylesheets/mystyle.css")
+   body
+      nav.navbar.navbar-default
+         .container
+            .navbar-header
+               button.navbar-toggle.collapsed(aria-controls="navbar", aria-expanded="false", data-target="#navbar", data-toggle="collapse", type="button")
+                  span.sr-only Toggle navigation
+                  span.icon-bar
+                  span.icon-bar
+                  span.icon-bar
+            #navbar.navbar-collapse.collapse(aria-expanded="false")
+               ul.nav.navbar-nav
+                  li.active
+                     a(data-toggle="tab", href="#home") Home
+                  li.dropdown
+                     a.dropdown-toggle(aria-expanded="false", role="button", data-toggle="dropdown", href="#")
+                        | Smthng about
+                        span.caret
+                     ul.dropdown-menu
+                        li
+                           a(data-toggle="tab", href="#aboutMe") About me
+                        li
+                           a(data-toggle="tab", href="#aboutBlog") About blog
+                  li
+                     a(data-toggle="tab", href="#smthngElse") Smthng else
+                  li.dropdown
+                     a.dropdown-toggle(aria-expanded="false", data-toggle="dropdown", href="#")
+                        | Moar
+                        span.caret
+                     ul.dropdown-menu
+                        li
+                           a(data-toggle="tab", href="#iLinks") Interesting links
+                        li
+                           a(data-toggle="tab", href="#nLinks") Not so interesting links
+                  li
+                     a(data-toggle="tab", href="#gallery") Gallery, why not?
+      .container
+         .my-header
+            h1 Something like a blog
+            p Just trying
+         br
+         .tab-content
+            #home.tab-pane.fade.in.active
+               .row
+                  .col-md-8
+                     ul.nav.nav-tabs
+                        li.active
+                           a(data-toggle="tab", href="#content-container") All articles
+                        li
+                           a(data-toggle="tab", href="#date-content-container") Pick the dates
+                     .tab-content
+                        #content-container.tab-pane.fade.in.active
+                           //button#btnAddArticle.btn.btn-default(data-toggle="modal", data-target="#myModalAdd") Add new article
+                           #myModalAdd.modal.fade(tabindex="-1", role="dialog", aria-labelledby="myModalLabelAdd", aria-hidden="true")
+                              .modal-dialog
+                                 .modal-content
+                                    .modal-header
+                                       button.close(type="button", data-dismiss="modal")
+                                          span(aria-hidden="true") &#215;
+                                          span.sr-only Close
+                                       h4#myModalLabelAdd.modal-title Add new post here
+                                    #modal-bodyAdd.modal-body
+                                       #add-content-container
+                                          br
+                                          input#inputAuthor.form-control(type="text", placeholder="Author")
+                                          br
+                                          input#inputHeader.form-control(type="text", placeholder="Header")
+                                          br
+                                          textarea#inputText.form-control(type="text", placeholder="Text")
+                                          br
+                                          button#btnAddPost.btn.btn-default Add Post
+                                    .modal-footer
+                                       button.btn.btn-default(type="button", data-dismiss="modal") Close
+                           #articles-container.liPaginate
+                        #date-content-container.tab-pane.fade
+                           .my-center
+                              p Choose the dates:
+                              #datepicker.input-daterange.input-group
+                                 input#start.input-sm.form-control(type="text", name="start")
+                                 span.input-group-addon to
+                                 input#end.input-sm.form-control(type="text", name="end")
+                              br
+                              button.btn.btn-default(type="button", data-toggle="modal", data-target="#myModal1", onclick="showArticles()") Show &#39;em all!
+                              // Modal
+                              #myModal1.modal.fade(tabindex="-1", role="dialog", aria-labelledby="myModalLabel1", aria-hidden="true")
+                                 .modal-dialog
+                                    .modal-content
+                                       .modal-header
+                                          button.close(type="button", data-dismiss="modal")
+                                             span(aria-hidden="true") &#215;
+                                             span.sr-only Close
+                                          h4#myModalLabel1.modal-title Read a while...
+                                       #modal-body1.modal-body
+                                       .modal-footer
+                                          button.btn.btn-default(type="button", data-dismiss="modal") Close
+                           #date-picker-content
+                     // Modal
+                     #myModal.modal.fade(tabindex="-1", role="dialog", aria-labelledby="myModalLabel", aria-hidden="true")
+                        .modal-dialog
+                           .modal-content
+                              .modal-header
+                                 button.close(type="button", data-dismiss="modal")
+                                    span(aria-hidden="true") &#215;
+                                    span.sr-only Close
+                                 h4#myModalLabel.modal-title Read a while...
+                              #modal-body.modal-body
+                              .modal-footer
+                                 button.btn.btn-default(type="button", data-dismiss="modal") Close
+                  .col-md-3.col-sm-offset-1
+                     button#btnAddArticle.btn.btn-primary(data-toggle="modal", data-target="#myModalAdd") Add new article
+                     br
+                     br
+                     h4 Last five articles:
+                     #last-headers-container0
+                     #last-headers-container1
+                     #last-headers-container2
+                     #last-headers-container3
+                     #last-headers-container4
+            #aboutMe.my-center.tab-pane.fade
+               h4
+                  | Hi there!
+                  br
+                  | I&#39;m Aliaksandr Asiptsou aka tatsel =)
+            #aboutBlog.my-center.tab-pane.fade
+               h4 This page is just my attempt to create something seems like a blog
+            #smthngElse.my-center.tab-pane.fade
+               h4
+                  | Oh, my bad...
+                  br
+                  | I&#39;d better name this
+                  br
+               h1 NOTHING
+               h4 else
+            #iLinks.my-center.tab-pane.fade
+               h4
+                  a(href="http://9gag.com/") Only one here, sorry
+            #nLinks.my-center.tab-pane.fade
+               h4 Well, still nothing to do here
+               img(height="200", width="130", src="http://fc00.deviantart.net/fs71/i/2013/091/6/5/nothing_to_do_here_in_hd_by_lemmino-d6025yy.png")
+            #gallery.my-center.tab-pane.fade
+               h4 A few random photos from flickr
+               br
+               // The Bootstrap Image Gallery lightbox, should be a child element of the document body
+               #blueimp-gallery.blueimp-gallery
+                  // The container for the modal slides
+                  .slides
+                  // The modal dialog, which will be used to wrap the lightbox content
+                  .modal.fade
+                     .modal-dialog
+                        .modal-content
+                           .modal-header
+                              button.close(type="button", aria-hidden="true") &#215;
+                              h4.modal-title
+                           .modal-body.next
+                           .modal-footer
+                              button.btn.btn-default.pull-left.prev(type="button")
+                                 | Previous
+                              button.btn.btn-primary.next(type="button")
+                                 | Next
+               #links
+      footer.my-footer
+         .container
+            p.text-muted Created by tatsel @ EPAMLab
+      script(src="javascripts/vendor/jquery-1.11.1.min.js")
+      script(src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js")
+      script(src="javascripts/vendor/bootstrap.js")
+      script(src="javascripts/vendor/bootstrap-datepicker.js")
+      script(src="javascripts/vendor/jquery.liPaginate.js")
+      script(src="javascripts/vendor/jquery.easing.1.3.js")
+      script(src="javascripts/vendor/bootstrap-image-gallery.min.js")
+      script(src="javascripts/vendor/mustache.js")
+      script(src="javascripts/templates.js")
+      script(src="javascripts/blog-content.js")
